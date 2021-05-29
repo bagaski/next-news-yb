@@ -1,0 +1,35 @@
+.introtext {
+  font-size: 100px;
+  margin-left: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+    width: 100vw;
+}
+
+.card {
+    width: 25vw;
+    border: 1px solid darkorchid;
+}
+
+.card img {
+   
+width: 25vw;
+height:25vw;
+object-fit: cover;
+filter: grayscale(100%) opacity(20%) contrast(5000%);
+}
+
+.card p {
+    font-size: 0.75rem;
+    position: relative;
+    background-color: white;
+    padding: 0.25rem;
+    margin-top:-3rem;
+    margin-left: 1rem;
+    
+    width: 125px;
+}

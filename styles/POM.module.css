@@ -1,0 +1,41 @@
+.introtext {
+  font-size: 100px;
+  margin-left: 2rem;
+}
+
+.main {
+display: flex;
+flex: 1;
+align-items: left;
+flex-direction: column;
+}
+
+.main img {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border:1px solid darkorchid;
+filter: grayscale(100%) opacity(20%) contrast(5000%);
+}
+
+.items {
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin:100px;
+    height: 500px;
+    background-color: darkorchid;
+}
+
+.card h3 {
+    padding-left: 1rem;
+    color: white;
+}
+
+.card p {
+    padding: 1rem;
+    color: white;
+}
